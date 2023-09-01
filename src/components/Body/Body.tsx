@@ -1,12 +1,12 @@
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar'
-import VideContainer from '../Videos/VideContainer'
+import VideoContainer from '../Videos/VideoContainer'
 
 const Body = () => {
   return (
-    <div className='flex gap-4'>
+    <div className='flex'>
       <Sidebar />
-      <VideContainer />
+      <VideoContainer />
     </div>
   )
 }
